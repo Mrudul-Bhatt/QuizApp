@@ -12,8 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-To make sure the app fetches data from database, cd into backend and run npm start
-backend server will be running on http://localhost:4040
+To make sure the app fetches data from database, cd into backend and run npm start.<br />
+Backend server will be running on http://localhost:4040
 
 ### `npm test`
 
