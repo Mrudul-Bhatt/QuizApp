@@ -12,7 +12,7 @@ class QuizBee extends Component {
   };
 
   getQuestions = () => {
-    fetch("http://localhost:4040/questions/")
+    fetch("https://quizee-app-api.herokuapp.com/questions/")
       .then((data) => {
         return data.json();
       })
@@ -49,7 +49,7 @@ class QuizBee extends Component {
   render() {
     return (
       <div className="container">
-        <div className="title">QuizBee</div>
+        <div className="title">Quiz</div>
         {this.state.questionBank.length > 0 &&
           this.state.responses < 5 &&
           this.state.questionBank.map(
